@@ -35,10 +35,8 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: cv
-      - name: Rename
-        run: mv cv.pdf cv-$GITHUB_REF_NAME.pdf
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            cv-*.pdf
+            cv.pdf
