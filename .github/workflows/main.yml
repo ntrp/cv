@@ -22,7 +22,7 @@ jobs:
           root_file: cv.tex
           # LaTeX engine to be used
           compiler: xelatex
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: cv
           path: cv.pdf
