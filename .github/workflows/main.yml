@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: LaTeX compilation
-        uses: dante-ev/latex-action@2023-A
+        uses: dante-ev/latex-action@2024-A
         with:
           # The root LaTeX file to be compiled
           root_file: cv.tex
